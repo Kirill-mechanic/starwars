@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+
+h2 {
+    color: rgb(146, 39, 9);
+    font-size: 40px;
+    text-align: center;
+    font-family: "Yatra One", serif;
+}
+
+p {
+    font-family: "Amarante", serif;
+    color: rgb(111, 0, 255);
+    background-color: rgb(255, 201, 134);
+    font-size: 35px;
+}
+body {
+    background: url('img/Обои\ ЗВ.jpg');
+    background-size: cover;
+}

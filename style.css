@@ -1,0 +1,58 @@
+body {
+    background: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    font-size: 38px;
+}
+
+h2 {
+    color: rgb(168, 129, 0);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    width: 200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 225px; 
+    height: 290px;
+    align-items: center;
+}
+
+a{
+    padding: 20px 10px;
+    text-align: center;
+    background-color: rgb(50, 74, 148);
+    font-size: 24px;
+    border-radius: 5px;
+    color:rgb(180, 180, 51);
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(17, 120, 168);
+}
+
+.movie{
+    padding: 25px;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
